@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = "Git is a program that helps you track any changes made to files."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = "Github is where you can store your repositories online so other people can view source code and version control."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+const gitInitDefinition = "git init creates a repository at the specific directory you are in."
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition = "git clone creates a copy of the online repository from Github and adds it to the local machine."
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+const gitStatusDefinition = "git status is a command that tells you about the repository you are in."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,8 @@
 */
 
 //CODE HERE
-
+const gitAddDefinition = "git add will add some files to be tracked."
+const gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +65,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition = "git commit creates a snampshot of the files you are tracking."
+const gitCommitCode = "git commit -m ____"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +75,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "git push adds your local commits to Github."
