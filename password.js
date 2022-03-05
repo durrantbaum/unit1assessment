@@ -7,7 +7,7 @@ const reader = readline.createInterface({
   
   
   
-  reader.question("Welcome to the Passowrd Validation Tool. Please input your password:", function(input){
+  reader.question("Welcome to the Password Validation Tool. Please input your password:", function(input){
       tokens = input.split(' ');
       
       password = tokens[0];
