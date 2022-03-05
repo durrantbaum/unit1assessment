@@ -7,7 +7,8 @@ const reader = readline.createInterface({
   
   
   
-  reader.question("Welcome to the Password Validation Tool. Please input your password:", function(input){
+  reader.question(
+      'Welcome to the Password Validation Tool. Please input your password: ', function(input){
       tokens = input.split(' ');
       
       password = tokens[0];
@@ -17,4 +18,5 @@ const reader = readline.createInterface({
     } else {
         console.log('Please input a password with at least 10 characters.')
     }
-    })
+    reader.close()
+})
